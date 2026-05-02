@@ -2,7 +2,7 @@
   "agent_name": "kimiclaw",
   "version": "1.0.0",
   "created_at": "2026-05-02T20:40:46.359589+00:00",
-  "last_updated": "2026-05-02T21:11:54.819573+00:00",
+  "last_updated": "2026-05-02T21:41:55.021243+00:00",
   "config": {
     "gmail": "kimiclaw8@gmail.com",
     "initial_capital": 0.0,
@@ -21,11 +21,6 @@
         "yield_variance": 0.005,
         "batch_size": 5,
         "pending_tasks": [
-          "task_10",
-          "task_11",
-          "task_12",
-          "task_13",
-          "task_14",
           "task_15",
           "task_16",
           "task_17",
@@ -42,7 +37,12 @@
           "task_6",
           "task_7",
           "task_8",
-          "task_9"
+          "task_9",
+          "task_10",
+          "task_11",
+          "task_12",
+          "task_13",
+          "task_14"
         ],
         "total_revenue": 0.0,
         "total_costs": 0.0,
@@ -58,8 +58,6 @@
         "yield_variance": 0.01,
         "batch_size": 2,
         "pending_tasks": [
-          "post_4",
-          "post_5",
           "post_6",
           "post_7",
           "post_8",
@@ -69,7 +67,9 @@
           "post_0",
           "post_1",
           "post_2",
-          "post_3"
+          "post_3",
+          "post_4",
+          "post_5"
         ],
         "total_revenue": 0.0,
         "total_costs": 0.0,
@@ -90,9 +90,9 @@
         ]
       }
     ],
-    "total_earnings": 0.085,
+    "total_earnings": 0.15180000000000002,
     "total_expenses": 0.0,
-    "net_profit": 0.085,
+    "net_profit": 0.15180000000000002,
     "skills_learned": [
       "freelance",
       "content"
@@ -127,9 +127,9 @@
     }
   },
   "meta": {
-    "total_iterations": 3,
-    "total_runtime_hours": 1.5,
-    "last_tick": "2026-05-02T21:11:54.817343+00:00",
+    "total_iterations": 4,
+    "total_runtime_hours": 2.0,
+    "last_tick": "2026-05-02T21:41:55.018986+00:00",
     "last_phase_3_run": "2026-05-02T20:41:54.565169+00:00",
     "last_phase_4_run": "2026-05-02T20:41:54.565440+00:00",
     "last_phase_5_run": "2026-05-02T20:41:54.567497+00:00",
