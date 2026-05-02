@@ -2,7 +2,7 @@
   "agent_name": "kimiclaw",
   "version": "1.0.0",
   "created_at": "2026-05-02T20:40:46.359589+00:00",
-  "last_updated": "2026-05-02T20:57:44.849850+00:00",
+  "last_updated": "2026-05-02T21:11:54.819573+00:00",
   "config": {
     "gmail": "kimiclaw8@gmail.com",
     "initial_capital": 0.0,
@@ -21,11 +21,6 @@
         "yield_variance": 0.005,
         "batch_size": 5,
         "pending_tasks": [
-          "task_5",
-          "task_6",
-          "task_7",
-          "task_8",
-          "task_9",
           "task_10",
           "task_11",
           "task_12",
@@ -42,7 +37,12 @@
           "task_1",
           "task_2",
           "task_3",
-          "task_4"
+          "task_4",
+          "task_5",
+          "task_6",
+          "task_7",
+          "task_8",
+          "task_9"
         ],
         "total_revenue": 0.0,
         "total_costs": 0.0,
@@ -58,8 +58,6 @@
         "yield_variance": 0.01,
         "batch_size": 2,
         "pending_tasks": [
-          "post_2",
-          "post_3",
           "post_4",
           "post_5",
           "post_6",
@@ -69,7 +67,9 @@
         ],
         "completed_tasks": [
           "post_0",
-          "post_1"
+          "post_1",
+          "post_2",
+          "post_3"
         ],
         "total_revenue": 0.0,
         "total_costs": 0.0,
@@ -88,131 +88,11 @@
           "article_20260502_204131.md",
           "research_20260502_204131.md"
         ]
-      },
-      {
-        "id": "20260502_204701",
-        "type": "auto_worker",
-        "description": "30-min automation loop",
-        "timestamp": "2026-05-02T20:47:01.577876+00:00",
-        "outputs": [
-          "article_20260502_204701.md",
-          "research_20260502_204701.md"
-        ]
-      },
-      {
-        "id": "20260502_204739",
-        "type": "beatsheaven_content",
-        "description": "Generated SEO article + social pack + keyword research",
-        "timestamp": "2026-05-02T20:47:39.650454+00:00",
-        "outputs": [
-          "content/the-rise-of-afrobeats-and-amapiano-production-tips-for-producers_20260502_204739.md",
-          "social/social_20260502_204739.md",
-          "research/keywords_20260502_204739.md"
-        ]
-      },
-      {
-        "id": "20260502_204943",
-        "type": "beatsheaven_content",
-        "description": "Generated SEO article + social pack + keyword research",
-        "timestamp": "2026-05-02T20:49:43.548293+00:00",
-        "outputs": [
-          "content/the-rise-of-afrobeats-and-amapiano-production-tips-for-producers_20260502_204943.md",
-          "social/social_20260502_204943.md",
-          "research/keywords_20260502_204943.md"
-        ]
-      },
-      {
-        "id": "20260502_204945",
-        "type": "beatsheaven_content",
-        "description": "Generated SEO article + social pack + keyword research",
-        "timestamp": "2026-05-02T20:49:45.662068+00:00",
-        "outputs": [
-          "content/the-rise-of-afrobeats-and-amapiano-production-tips-for-producers_20260502_204945.md",
-          "social/social_20260502_204945.md",
-          "research/keywords_20260502_204945.md"
-        ]
-      },
-      {
-        "id": "20260502_204947",
-        "type": "beatsheaven_content",
-        "description": "Generated SEO article + social pack + keyword research",
-        "timestamp": "2026-05-02T20:49:47.801974+00:00",
-        "outputs": [
-          "content/the-rise-of-afrobeats-and-amapiano-production-tips-for-producers_20260502_204947.md",
-          "social/social_20260502_204947.md",
-          "research/keywords_20260502_204947.md"
-        ]
-      },
-      {
-        "id": "20260502_205030",
-        "type": "beatsheaven_content",
-        "description": "Generated SEO article + social pack + keyword research",
-        "timestamp": "2026-05-02T20:50:30.858547+00:00",
-        "outputs": [
-          "content/how-to-sell-beats-online-in-2026-the-complete-producers-guide_20260502_205030.md",
-          "social/social_20260502_205030.md",
-          "research/keywords_20260502_205030.md"
-        ]
-      },
-      {
-        "id": "20260502_205041",
-        "type": "beatsheaven_content",
-        "description": "Generated SEO article + social pack + keyword research",
-        "timestamp": "2026-05-02T20:50:41.937861+00:00",
-        "outputs": [
-          "content/beatsheaven-vs-beatstars-which-platform-is-better-for-producers_20260502_205041.md",
-          "social/social_20260502_205041.md",
-          "research/keywords_20260502_205041.md"
-        ]
-      },
-      {
-        "id": "20260502_205041",
-        "type": "beatsheaven_content",
-        "description": "Generated SEO article + social pack + keyword research",
-        "timestamp": "2026-05-02T20:50:42.048414+00:00",
-        "outputs": [
-          "content/top-10-trap-beat-trends-dominating-2026_20260502_205041.md",
-          "social/social_20260502_205041.md",
-          "research/keywords_20260502_205041.md"
-        ]
-      },
-      {
-        "id": "20260502_205042",
-        "type": "beatsheaven_content",
-        "description": "Generated SEO article + social pack + keyword research",
-        "timestamp": "2026-05-02T20:50:42.155195+00:00",
-        "outputs": [
-          "content/how-to-price-your-beats-a-data-driven-guide-for-music-producers_20260502_205042.md",
-          "social/social_20260502_205042.md",
-          "research/keywords_20260502_205042.md"
-        ]
-      },
-      {
-        "id": "20260502_205201",
-        "type": "beatsheaven_content",
-        "description": "Generated SEO article + social pack + keyword research",
-        "timestamp": "2026-05-02T20:52:01.696193+00:00",
-        "outputs": [
-          "content/understanding-beat-licensing-exclusive-vs-non-exclusive-vs-lease_20260502_205201.md",
-          "social/social_20260502_205201.md",
-          "research/keywords_20260502_205201.md"
-        ]
-      },
-      {
-        "id": "20260502_205744",
-        "type": "trend_monitor",
-        "description": "Monitored Reddit, compiled keywords, generated opportunities",
-        "timestamp": "2026-05-02T20:57:44.849911+00:00",
-        "outputs": [
-          "trends/reddit_20260502_205744.md",
-          "trends/keywords_20260502_205744.md",
-          "trends/opportunities_20260502_205744.md"
-        ]
       }
     ],
-    "total_earnings": 0.0592,
+    "total_earnings": 0.085,
     "total_expenses": 0.0,
-    "net_profit": 0.0592,
+    "net_profit": 0.085,
     "skills_learned": [
       "freelance",
       "content"
@@ -247,9 +127,9 @@
     }
   },
   "meta": {
-    "total_iterations": 13,
-    "total_runtime_hours": 1.0,
-    "last_tick": "2026-05-02T20:52:01.696190+00:00",
+    "total_iterations": 3,
+    "total_runtime_hours": 1.5,
+    "last_tick": "2026-05-02T21:11:54.817343+00:00",
     "last_phase_3_run": "2026-05-02T20:41:54.565169+00:00",
     "last_phase_4_run": "2026-05-02T20:41:54.565440+00:00",
     "last_phase_5_run": "2026-05-02T20:41:54.567497+00:00",
