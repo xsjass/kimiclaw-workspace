@@ -1,0 +1,31 @@
+{
+  "diary": {
+    "count": 10,
+    "last_ts": "2026-05-03T03:53:17.054495",
+    "last_error": "HTTP Error 403: Forbidden",
+    "last_day": 6,
+    "last_sessions": 1,
+    "last_messages": 46,
+    "last_filename": "day6-2026-05-03-jimi_gets_an_email.md",
+    "last_latency_s": 8.1,
+    "last_skip": "no_sessions_today"
+  },
+  "compact": {
+    "count": 10,
+    "last_ts": "2026-05-03T03:53:23.967508",
+    "last_error": "The read operation timed out",
+    "last_invoke": 3,
+    "last_sessions": 4,
+    "last_messages": 67,
+    "last_latency_s": 6.6,
+    "last_model": "k2p5",
+    "last_skip": "stm_hash_unchanged"
+  },
+  "stm": {
+    "count": 2,
+    "last_ts": "2026-04-29T23:25:28.090763",
+    "last_sessions": 2,
+    "last_messages": 41,
+    "last_chars": 5192
+  }
+}

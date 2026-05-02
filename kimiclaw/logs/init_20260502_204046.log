@@ -1,0 +1,15 @@
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Logging initialized. Log file: /root/.openclaw/workspace/kimiclaw/logs/init_20260502_204046.log
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Configuration: {'gmail': 'kimiclaw8@gmail.com', 'initial_capital': 0.0, 'risk_tolerance': 'medium', 'timezone': 'America/Toronto'}
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Directory ready: /root/.openclaw/workspace/kimiclaw/data
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Directory ready: /root/.openclaw/workspace/kimiclaw/logs
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Directory ready: /root/.openclaw/workspace/kimiclaw/reports
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Directory ready: /root/.openclaw/workspace/kimiclaw/state
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Directory ready: /root/.openclaw/workspace/kimiclaw/scripts
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Directory ready: /root/.openclaw/workspace/kimiclaw/backups
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Earnings CSV created: /root/.openclaw/workspace/kimiclaw/data/earnings.csv
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Log file created: /root/.openclaw/workspace/kimiclaw/logs/activity.log
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Log file created: /root/.openclaw/workspace/kimiclaw/logs/errors.log
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Log file created: /root/.openclaw/workspace/kimiclaw/logs/strategies.log
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - State written to /root/.openclaw/workspace/kimiclaw/state/state.json
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - README created: /root/.openclaw/workspace/kimiclaw/README.md
+2026-05-03 04:40:46 CST [INFO] kimiclaw.init - Kimiclaw v1.0.0 initialization complete.
