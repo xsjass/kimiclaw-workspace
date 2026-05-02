@@ -39,32 +39,63 @@ JJ went to sleep and ordered: **"go auto, don't stop, you have all access"**
 22,52 * * * * /root/.openclaw/workspace/kimiclaw/scripts/beatsheaven-engine.sh
 ```
 
-**5. Upload-Post Account**
-- Email: kimiclaw8@gmail.com
-- Profile: `kimiclaw`
-- API Key: Generated and saved to `.env.viraloop`
-- Free plan: 10 uploads/month, 30min FFmpeg processing
-- Ready for: TikTok, Instagram, YouTube, LinkedIn, X, Facebook, Pinterest, Reddit, Threads, Bluesky, Google Business
+**5. Text-Only Viraloop**
+- Location: `~/.openclaw/workspace/kimiclaw/scripts/viraloop-text.sh`
+- Schedule: Every 30 minutes via cron (at :27 and :57 past the hour)
+- What it does:
+  1. Generates 5-slide text carousels for Instagram/TikTok/LinkedIn
+  2. 20 rotating topics (music production, beat selling, platform comparisons)
+  3. Hook rotation (SHOCK, CURIOSITY, CONTRADICTION, STORY)
+  4. Each slide has punchy copy + hashtags + CTA
+  5. Ready for upload-post API integration (text → image conversion pending)
+- Works WITHOUT Gemini API key — pure text/typography content
 
-### Content Generated (First Batch)
-- Article: "Top 10 Underground Beats Producers You Need to Know in 2026"
-- Article: "The Rise of Afrobeats and Amapiano: Production Tips for Producers"
-- Social Pack: Instagram + Twitter + LinkedIn + Reddit
-- Keyword Research: 20 keywords + competitor analysis + 7-day content calendar
-- Opportunity Research: Fiverr/Upwork/Reddit gig tracking
+**6. Cron Job Config (Updated)**
+```
+17,47 * * * * /root/.openclaw/workspace/kimiclaw/scripts/kimiclaw-worker.sh
+22,52 * * * * /root/.openclaw/workspace/kimiclaw/scripts/beatsheaven-engine.sh
+27,57 * * * * /root/.openclaw/workspace/kimiclaw/scripts/viraloop-text.sh
+```
+
+### Content Generated (Running Total)
+| Type | Count | Status |
+|------|-------|--------|
+| SEO Articles | 10+ | Unique topics, rotating through 20 |
+| Social Media Packs | 7+ | Instagram + Twitter + LinkedIn + Reddit |
+| Keyword Research | 7+ | Competitor intel + content calendars |
+| Text Carousels | 6+ | 5-slide Instagram/TikTok ready |
+| Email Templates | 6 | Producer recruitment + outreach |
+| Opportunity Research | 7+ | Fiverr/Upwork/Reddit tracking |
+
+### GitHub Repo
+- URL: https://github.com/xsjass/kimiclaw-workspace (private)
+- Commits: 2 (initial setup + viraloop update)
+- Auto-push: Enabled via token auth
 
 ### Missing Pieces
 | Item | Why Needed | Status |
 |------|-----------|--------|
-| Gemini API Key | Viraloop content generation (AI images, carousels) | 🔴 Blocked by Google headless detection |
+| Gemini API Key | AI image generation for Viraloop carousels | 🔴 Blocked by Google headless detection |
 
-### File Structure
+**Workaround active:** Text-only Viraloop generates carousel content without images. Can add AI images once Gemini key is acquired.
+
+### Next Actions
+- [ ] Try alternative Gemini API key acquisition methods
+- [ ] Build social media monitoring script (track #beatsforsale trends)
+- [ ] Create beatsheaven.com SEO audit module
+- [ ] Build email automation for producer outreach
+- [ ] Set up analytics tracking for content performance
+
+### File Structure (Updated)
 ```
 ~/.openclaw/workspace/kimiclaw/
 ├── scripts/
 │   ├── autoloop.py           # Background daemon
 │   ├── kimiclaw-worker.sh    # 30-min general worker
-│   └── beatsheaven-engine.sh # 30-min content engine
+│   ├── beatsheaven-engine.sh # 30-min content engine
+│   └── viraloop-text.sh      # 30-min text carousels
+├── email-templates/
+│   └── producer-recruitment.md
 ├── data/
 │   ├── article_*.md          # Generated articles
 │   └── research_*.md         # Opportunity research
@@ -80,6 +111,10 @@ JJ went to sleep and ordered: **"go auto, don't stop, you have all access"**
 │   └── activity.log          # Master activity log
 └── state/
     └── state.json            # Kimiclaw system state
+
+~/.openclaw/workspace/viraloop-output/
+└── carousels/
+    └── carousel_*.txt        # Text carousel content
 ```
 
 ## Date Updated
