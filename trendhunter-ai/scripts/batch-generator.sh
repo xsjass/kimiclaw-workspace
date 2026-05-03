@@ -3,7 +3,7 @@
 # Generates multiple AI articles in one run
 # Kimiclaw 2026
 
-API_KEY="REDACTED_GEMINI_KEY"
+API_KEY="$GEMINI_API_KEY"
 WORKSPACE="/root/.openclaw/workspace/trendhunter-ai"
 SITE="$WORKSPACE/site"
 

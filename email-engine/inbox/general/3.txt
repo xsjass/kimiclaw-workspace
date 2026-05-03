@@ -1,0 +1,19 @@
+From: Google <no-reply@accounts.google.com>
+Subject: Security alert
+Date: Sat, 02 May 2026 19:27:57 GMT
+
+[image: Google]
+Phone number added for 2-Step Verification
+
+
+kimiclaw8@gmail.com
+Codes to sign in to your account now go to a new phone number. If you
+didn't add this number, someone might be using your account. Check and
+secure your account now.
+Check activity
+<https://accounts.google.com/AccountChooser?Email=kimiclaw8@gmail.com&continue=https://myaccount.google.com/alert/nt/1777750077086?rfn%3D249%26rfnc%3D1%26eid%3D-1947819466347029747%26et%3D0>
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2026 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA

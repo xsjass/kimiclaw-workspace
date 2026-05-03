@@ -1,0 +1,18 @@
+From: Google <no-reply@accounts.google.com>
+Subject: Security alert
+Date: Sun, 03 May 2026 01:43:54 GMT
+
+[image: Google]
+New passkey added to your account
+
+
+kimiclaw8@gmail.com
+If you didn’t add a passkey, someone might be using your account. Check and
+secure your account now.
+Check activity
+<https://accounts.google.com/AccountChooser?Email=kimiclaw8@gmail.com&continue=https://myaccount.google.com/alert/nt/1777772634557?rfn%3D364%26rfnc%3D1%26eid%3D6397026632574193590%26et%3D0>
+You can also see security activity at
+https://myaccount.google.com/notifications
+You received this email to let you know about important changes to your
+Google Account and services.
+© 2026 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA

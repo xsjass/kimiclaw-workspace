@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "from": "Google <no-reply@google.com>",
+    "subject": "Kimi, finish setting up your new Google Account",
+    "category": "general",
+    "date": "Sat, 02 May 2026 12:14:39 -0700"
+  },
+  {
+    "id": "2",
+    "from": "Google <no-reply@accounts.google.com>",
+    "subject": "Security alert",
+    "category": "general",
+    "date": "Sat, 02 May 2026 19:23:10 GMT"
+  },
+  {
+    "id": "3",
+    "from": "Google <no-reply@accounts.google.com>",
+    "subject": "Security alert",
+    "category": "general",
+    "date": "Sat, 02 May 2026 19:27:57 GMT"
+  },
+  {
+    "id": "4",
+    "from": "Google <no-reply@accounts.google.com>",
+    "subject": "2-Step Verification turned on",
+    "category": "general",
+    "date": "Sat, 02 May 2026 19:35:58 GMT"
+  },
+  {
+    "id": "5",
+    "from": "Google <no-reply@accounts.google.com>",
+    "subject": "Security alert",
+    "category": "general",
+    "date": "Sat, 02 May 2026 19:36:52 GMT"
+  },
+  {
+    "id": "6",
+    "from": "Google <no-reply@accounts.google.com>",
+    "subject": "Security alert",
+    "category": "general",
+    "date": "Sat, 02 May 2026 19:37:28 GMT"
+  },
+  {
+    "id": "7",
+    "from": "Google <no-reply@accounts.google.com>",
+    "subject": "Security alert",
+    "category": "general",
+    "date": "Sat, 02 May 2026 19:37:48 GMT"
+  },
+  {
+    "id": "10",
+    "from": "Google <no-reply@accounts.google.com>",
+    "subject": "Security alert",
+    "category": "general",
+    "date": "Sun, 03 May 2026 01:43:54 GMT"
+  },
+  {
+    "id": "11",
+    "from": "leakscanner@mailbox.org",
+    "subject": "Possible Credential Exposure in Your GitHub Repository!",
+    "category": "general",
+    "date": "Sun, 03 May 2026 03:34:16 +0000"
+  },
+  {
+    "id": "12",
+    "from": "GitGuardian <security@getgitguardian.com>",
+    "subject": "[xsjass/kimiclaw-workspace] Google API Key exposed on GitHub",
+    "category": "general",
+    "date": "Sun, 03 May 2026 03:34:42 +0000"
+  }
+]

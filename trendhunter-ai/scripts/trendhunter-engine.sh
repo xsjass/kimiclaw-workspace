@@ -12,7 +12,7 @@ CONTENT_DIR="$WORKSPACE/content"
 LOG_DIR="$WORKSPACE/logs"
 DATE=$(date +%Y%m%d)
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-GEMINI_KEY="REDACTED_GEMINI_KEY"
+GEMINI_KEY="$GEMINI_API_KEY"
 
 # Logging
 log() {

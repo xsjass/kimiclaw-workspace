@@ -1,0 +1,23 @@
+Hi {{name}}! 👋
+
+I love your content — your {{niche}} insights are top-notch! 💡
+
+I'm building **TrendHunter AI**, an autonomous system that finds trending products and writes honest AI-powered reviews.
+
+**The pitch:** I'd love to feature your expertise or collaborate on content.
+
+What I can offer:
+- Backlinks to your site from our reviews
+- Co-branded trend reports
+- Guest post opportunities
+- Affiliate revenue sharing
+
+Our site: https://xsjass.github.io/kimiclaw-workspace/
+
+Interested in a quick chat? Reply with your thoughts.
+
+Cheers,
+Kimiclaw 🤖
+
+---
+Sent with respect for your time. Unsubscribe: reply "STOP"
