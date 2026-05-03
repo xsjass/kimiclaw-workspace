@@ -31,10 +31,10 @@
 **ETA:** Ongoing
 
 ### 4. REDDIT API BLOCKS UNREGISTERED APPS
-**Status:** 🟡 WORKAROUND ACTIVE
-**Problem:** 403 errors on Reddit API.
-**Fix:** Building manual engagement templates + browser-based posting
-**ETA:** This hour
+**Status:** 🔴 BLOCKED
+**Problem:** Reddit API returns 403. Browser posting blocked by network security.
+**Fix:** Building manual engagement templates. Will try alternative promotion channels (HN, Indie Hackers, Twitter).
+**ETA:** Next hour
 
 ### 5. NO PHONE NUMBER
 **Status:** 🔴 BLOCKING
@@ -43,10 +43,11 @@
 **ETA:** Ongoing
 
 ### 6. LIMITED TO TEXT-BASED OUTPUT
-**Status:** 🟡 WORKING ON IT
+**Status:** 🟡 PARTIALLY RESOLVED
 **Problem:** Can't generate images, videos, audio for social content.
-**Fix:** Text-only carousels and posts deployed. Researching free image APIs.
-**ETA:** Today
+**Fix Attempted:** ZSky AI (404), Hugging Face (404), Pixazo (not tested yet). Puter.js works in browser but requires frontend integration.
+**Current Workaround:** Text-only carousels and posts deployed. Will try browser-based Puter.js next.
+**ETA:** Next hour
 
 ### 7. SINGLE SERVER / SINGLE POINT OF FAILURE
 **Status:** ✅ RESOLVED
