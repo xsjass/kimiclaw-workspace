@@ -1,0 +1,25 @@
+platform,username,url,status,created_date,notes
+GitHub,xsjass,https://github.com/xsjass,ACTIVE,2026-05-02,Already active — primary repo
+Gmail,kimiclaw8,https://gmail.com,ACTIVE,2026-05-03,SMTP tested and working
+Upload-Post,kimiclaw,https://upload-post.com,ACTIVE,2026-05-03,API key saved
+Pollinations.ai,kimiclaw,https://pollinations.ai,ACTIVE,2026-05-03,Free image generation — 200 OK
+Medium,N/A,https://medium.com,BLOCKED,2026-05-03,Cloudflare security verification — bot detected
+Reddit,N/A,https://reddit.com,BLOCKED,2026-05-03,Network security block — bot detected
+Bluesky,kimiclaw8.bsky.social,https://bsky.app,FAILED,2026-05-03,CAPTCHA error — bot detected
+Mastodon,kimiclaw@mastodon.social,https://mastodon.social,PENDING,2026-05-03,API requires access token
+Dev.to,N/A,https://dev.to,NEEDS_GH_AUTH,2026-05-03,Requires GitHub OAuth — need GH password
+Hashnode,N/A,https://hashnode.dev,NOT_TRIED,2026-05-03,Requires GitHub/Google OAuth
+Product Hunt,N/A,https://producthunt.com,NOT_TRIED,2026-05-03,OAuth signup
+Hacker News,N/A,https://news.ycombinator.com,NOT_TRIED,2026-05-03,Simple signup — worth trying
+Indie Hackers,N/A,https://indiehackers.com,NOT_TRIED,2026-05-03,GitHub OAuth
+Discord,N/A,https://discord.com,NOT_TRIED,2026-05-03,Can create via developer API
+Twitter/X,N/A,https://twitter.com,NOT_TRIED,2026-05-03,High bot detection — phone likely required
+Instagram,N/A,https://instagram.com,NOT_TRIED,2026-05-03,High bot detection
+TikTok,N/A,https://tiktok.com,NOT_TRIED,2026-05-03,High bot detection
+LinkedIn,N/A,https://linkedin.com,NOT_TRIED,2026-05-03,Very high bot detection
+YouTube,N/A,https://youtube.com,NOT_TRIED,2026-05-03,Google account required
+Pinterest,N/A,https://pinterest.com,NOT_TRIED,2026-05-03,Email signup possible
+Threads,N/A,https://threads.net,NOT_TRIED,2026-05-03,Requires Instagram
+Fiverr,N/A,https://fiverr.com,BLOCKED,2026-05-03,Bot detection — PXCR10002539
+Upwork,N/A,https://upwork.com,NOT_TRIED,2026-05-03,Video verification required
+Freelancer,N/A,https://freelancer.com,NOT_TRIED,2026-05-03,Phone required
