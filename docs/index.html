@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimiclaw Toolkit — Marketing Automation Engine</title>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #1a1a1a;
+            --accent: #00d4aa;
+            --text: #e0e0e0;
+            --muted: #666;
+            --border: #2a2a2a;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+        
+        .hero {
+            text-align: center;
+            padding: 6rem 0 4rem;
+            background: linear-gradient(135deg, var(--bg) 0%, var(--surface) 100%);
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--muted);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        .badge {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--bg);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.875rem;
+            margin-bottom: 2rem;
+        }
+        .cta {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--bg);
+            padding: 15px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin: 10px;
+        }
+        .cta.secondary {
+            background: transparent;
+            border: 2px solid var(--accent);
+            color: var(--accent);
+        }
+        
+        .features {
+            padding: 4rem 0;
+            background: var(--surface);
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .feature {
+            background: var(--bg);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        .feature h3 {
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        
+        .pricing { padding: 4rem 0; }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .pricing-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+        }
+        .pricing-card.featured {
+            border-color: var(--accent);
+            box-shadow: 0 0 30px rgba(0,212,170,0.1);
+        }
+        .price {
+            font-size: 3rem;
+            font-weight: 900;
+            margin: 1rem 0;
+        }
+        .price span {
+            font-size: 1rem;
+            color: var(--muted);
+            font-weight: 400;
+        }
+        .features-list {
+            list-style: none;
+            margin: 2rem 0;
+            text-align: left;
+        }
+        .features-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .features-list li::before {
+            content: "✓ ";
+            color: var(--accent);
+            font-weight: 700;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 3rem 0;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+        }
+        .footer a { color: var(--accent); }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="badge">🚀 v2.0 NOW LIVE</div>
+            <h1>Kimiclaw Toolkit</h1>
+            <p>The marketing automation engine that runs 24/7. Generate content, publish everywhere, and grow your business while you sleep.</p>
+            <a href="checkout.html" class="cta">Get Pro Access →</a>
+            <a href="https://github.com/xsjass/kimiclaw-workspace" class="cta secondary">View on GitHub</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 style="text-align: center;">6 Modules. Unlimited Power.</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>📝 SEO Articles</h3>
+                    <p>Auto-generate long-form SEO content for any niche. 10 topics per niche, auto-rotating.</p>
+                </div>
+                <div class="feature">
+                    <h3>📱 Social Media</h3>
+                    <p>Instagram, Twitter, LinkedIn, Reddit content packs ready to publish.</p>
+                </div>
+                <div class="feature">
+                    <h3>🧲 Lead Magnets</h3>
+                    <p>Landing page copy, email sequences, and starter kits that convert.</p>
+                </div>
+                <div class="feature">
+                    <h3>✉️ Email Sequences</h3>
+                    <p>Welcome, abandoned cart, re-engagement flows automated.</p>
+                </div>
+                <div class="feature">
+                    <h3>📊 Analytics</h3>
+                    <p>Weekly metrics tracker for traffic, engagement, conversion.</p>
+                </div>
+                <div class="feature">
+                    <h3>🎨 AI Images</h3>
+                    <p>Auto-generate featured images and social graphics. No API key needed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <h2 style="text-align: center;">Simple Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <div class="price">$0<span>/month</span></div>
+                    <ul class="features-list">
+                        <li>5 Core Modules</li>
+                        <li>5 Pre-built Niches</li>
+                        <li>Unlimited Generations</li>
+                        <li>Community Support</li>
+                        <li>GitHub Access</li>
+                    </ul>
+                    <a href="https://github.com/xsjass/kimiclaw-workspace" class="cta secondary">Get Started Free</a>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$47<span>/month</span></div>
+                    <ul class="features-list">
+                        <li>6 Modules (All)</li>
+                        <li>Unlimited Niches</li>
+                        <li>AI Image Generation</li>
+                        <li>Auto-Publishing API</li>
+                        <li>Custom Training</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <a href="checkout.html" class="cta">Upgrade to Pro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <p>Built by Kimiclaw • Open Source • MIT License</p>
+            <p>GitHub: <a href="https://github.com/xsjass/kimiclaw-workspace">github.com/xsjass/kimiclaw-workspace</a></p>
+            <p>Questions? <a href="mailto:kimiclaw8@gmail.com">kimiclaw8@gmail.com</a></p>
+        </div>
+    </section>
+</body>
+</html>
