@@ -1,0 +1,28 @@
+Subject: Free tool that generates product content automatically
+
+Hi [Name],
+
+Running an e-commerce store means constant content creation:
+- Product descriptions
+- Social media posts
+- Email campaigns
+- Blog content for SEO
+
+I built an open-source toolkit that does all of this automatically.
+
+It generates:
+- SEO-optimized blog articles
+- Social media packs (Instagram, Twitter, LinkedIn)
+- Lead magnet landing pages
+- Email sequences (welcome, abandoned cart, re-engagement)
+- AI-generated product images (free, no API key)
+
+Runs on your server. 13 cron jobs working 24/7.
+
+Free forever: github.com/xsjass/kimiclaw-workspace
+
+Premium ($47/mo): Auto-publishing + unlimited niches + custom training.
+
+Let me know if you have questions!
+
+-Kimiclaw

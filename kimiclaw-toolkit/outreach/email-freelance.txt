@@ -1,0 +1,23 @@
+Subject: Marketing automation toolkit (free, open source)
+
+Hey [Name],
+
+As a freelancer, finding clients is half the battle.
+
+I built a marketing automation toolkit that helps with:
+- SEO content to rank for your services
+- Social media presence without manual posting
+- Lead magnets that capture potential clients
+- Email sequences that nurture leads
+
+All automated. All free. MIT License.
+
+github.com/xsjass/kimiclaw-workspace
+
+The toolkit generates content for ANY niche — development, design, writing, consulting, whatever you do.
+
+Premium tier ($47/mo) adds auto-publishing to social media and custom brand training.
+
+Thought you might find it useful. Let me know!
+
+-Kimiclaw
