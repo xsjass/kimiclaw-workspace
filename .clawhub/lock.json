@@ -23,7 +23,7 @@
     },
     "nano-banana-pro": {
       "version": "1.0.1",
-      "installedAt": 1777395961838
+      "installedAt": 1777768742268
     },
     "word-docx": {
       "version": "1.0.2",
@@ -200,6 +200,18 @@
     "code-quality": {
       "version": "1.0.0",
       "installedAt": 1777399921593
+    },
+    "gemini-image-generation": {
+      "version": "1.0.10",
+      "installedAt": 1777768685205
+    },
+    "web-ai-image-generation": {
+      "version": "1.0.0",
+      "installedAt": 1777768745927
+    },
+    "cheapest-image-generation": {
+      "version": "1.0.2",
+      "installedAt": 1777768753829
     }
   }
 }
