@@ -416,6 +416,25 @@ EOF
 
 echo "✅ Email sequences generated: $EMAIL_FILE"
 
+# ── MODULE 6: AI IMAGE GENERATION ──────────────────────────────
+echo ""
+echo "🎨 MODULE 6: Featured Image Generation"
+
+IMAGE_PROMPT="${TOPIC} professional marketing illustration, dark background, neon green accents, modern geometric design, high quality"
+ENCODED_PROMPT=$(echo "$IMAGE_PROMPT" | sed 's/ /%20/g; s/,/%2C/g')
+IMAGE_FILE="$OUTPUT_DIR/image_${RUN_ID}.jpg"
+
+curl -s "https://image.pollinations.ai/prompt/${ENCODED_PROMPT}?width=1024&height=1024&seed=${RANDOM}&nologo=true" \
+  -o "$IMAGE_FILE" 2>/dev/null
+
+if [ -f "$IMAGE_FILE" ] && [ -s "$IMAGE_FILE" ]; then
+  IMAGE_SIZE=$(stat -c%s "$IMAGE_FILE" 2>/dev/null || stat -f%z "$IMAGE_FILE" 2>/dev/null)
+  echo "✅ Featured image generated: ${IMAGE_FILE} (${IMAGE_SIZE} bytes)"
+  cp "$IMAGE_FILE" "$TOOLKIT_DIR/publish-queue/image_${RUN_ID}.jpg"
+else
+  echo "⚠️ Image generation failed, continuing without image"
+fi
+
 # ── MODULE 5: ANALYTICS + TRACKING ──────────────────────────────
 echo ""
 echo "📊 MODULE 5: Analytics Dashboard Template"
