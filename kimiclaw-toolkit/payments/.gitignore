@@ -1,0 +1,6 @@
+# Payment secrets - NEVER commit to GitHub
+solana-keypair.json
+solana-wallet.json
+*.seed
+*.secret
+*.key
