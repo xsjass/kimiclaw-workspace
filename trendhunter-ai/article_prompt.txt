@@ -1,0 +1,19 @@
+Write a comprehensive SEO-optimized product review article for "Portable Bluetooth Speaker with RGB Lights".
+
+Requirements:
+- Title: Catchy, includes the product name, under 60 characters
+- Word count: 800-1200 words
+- Structure: 
+  1. Hook/intro (why this product matters NOW)
+  2. What is it? (product overview)
+  3. Key features (bullet points with benefits)
+  4. Pros and cons (honest balanced review)
+  5. Who should buy it? (target audience)
+  6. Price and value analysis
+  7. FAQ section (3-5 common questions)
+  8. Conclusion with clear recommendation
+- SEO: Include keywords naturally: "best [product category] 2026", "[product] review", "buy [product]"
+- Tone: Conversational, trustworthy, like a friend recommending something
+- Include affiliate link placeholders: [AFFILIATE_LINK_1], [AFFILIATE_LINK_2]
+
+Write only the article content. No meta-commentary.
